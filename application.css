@@ -1,0 +1,176 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/*================================ */
+
+
+.racer_table td {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  vertical-align: top;
+
+}
+
+.racer_table td.active {
+  background-image: url('http://cdnsource.inquisitr.com/wp-content/uploads/2012/11/nicolas-cage-e1353343673297-100x100.jpg')
+
+}
+
+body {
+  margin: 2%;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: avenir;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+html {
+  background: url('bear.jpg');
+}
+
+button {
+  margin: 20px;
+}
+
+.start {
+    background: #444;
+    border: none;
+    border-radius: 80px;
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,0%,.2),
+                inset 0 0 2px 4px hsla(0,0%,0%,.2),
+                inset 0 0 2px 6px hsla(0,0%,0%,.2),
+                inset 0 0 1px 8px hsla(0,0%,0%,.5),
+                inset 0 -4px 2px 4px hsla(0,0%,0%,.5),
+                inset 0 1px 1px 8px hsla(0,0%,100%,.25),
+                inset 0 -30px 30px hsla(0,0%,0%,.2),
+                0 -4px 8px 4px hsla(0,0%,0%,.5),
+                0 10px 10px hsla(0,0%,0%,.25),
+                0 0 2px 2px hsla(0,0%,0%,.2),
+                0 0 2px 4px hsla(0,0%,0%,.2),
+                0 0 2px 6px hsla(0,0%,0%,.2),
+                0 0 2px 8px hsla(0,0%,0%,.5),
+                0 1px 2px 8px hsla(0,0%,100%,.25),
+                0 -1px 2px 8px hsla(0,0%,0%,.5);
+    color: #303030;
+    cursor: pointer;
+    font: bold 16px/85px sans-serif;
+    height: 80px;
+    padding: 0;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
+                 0 -1px 1px hsla(0,0%,0%,.75);
+    width: 80px;
+}
+.start:hover,
+.start:focus {
+    color: #0ab;
+    text-shadow: 0 0 20px hsla(240,75%,75%,.5),
+                 0 1px 1px hsla(0,0%,100%,.25),
+                 0 -1px 1px hsla(0,0%,0%,.75);
+}
+.start:active {
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,0%,.2),
+                inset 0 0 2px 4px hsla(0,0%,0%,.2),
+                inset 0 0 2px 6px hsla(0,0%,0%,.2),
+                inset 0 0 1px 7px hsla(0,0%,0%,.5),
+                inset 0 5px 15px 7px hsla(0,0%,0%,.15),
+                inset 0 -4px 2px 3px hsla(0,0%,0%,.5),
+                inset 0 1px 1px 7px hsla(0,0%,100%,.25),
+                inset 0 -30px 30px hsla(0,0%,0%,.1),
+                inset 0 30px 30px hsla(0,0%,0%,.2),
+                0 -4px 8px 4px hsla(0,0%,0%,.5),
+                0 5px 10px hsla(0,0%,0%,.25),
+                0 0 2px 2px hsla(0,0%,0%,.2),
+                0 0 2px 4px hsla(0,0%,0%,.2),
+                0 0 2px 6px hsla(0,0%,0%,.2),
+                0 0 2px 8px hsla(0,0%,0%,.5),
+                0 1px 2px 8px hsla(0,0%,100%,.25),
+                0 -1px 2px 8px hsla(0,0%,0%,.5);
+    line-height: 86px;
+}
+
+.restart {
+    background: #444;
+    border: none;
+    border-radius: 80px;
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,0%,.2),
+                inset 0 0 2px 4px hsla(0,0%,0%,.2),
+                inset 0 0 2px 6px hsla(0,0%,0%,.2),
+                inset 0 0 1px 8px hsla(0,0%,0%,.5),
+                inset 0 -4px 2px 4px hsla(0,0%,0%,.5),
+                inset 0 1px 1px 8px hsla(0,0%,100%,.25),
+                inset 0 -30px 30px hsla(0,0%,0%,.2),
+                0 -4px 8px 4px hsla(0,0%,0%,.5),
+                0 10px 10px hsla(0,0%,0%,.25),
+                0 0 2px 2px hsla(0,0%,0%,.2),
+                0 0 2px 4px hsla(0,0%,0%,.2),
+                0 0 2px 6px hsla(0,0%,0%,.2),
+                0 0 2px 8px hsla(0,0%,0%,.5),
+                0 1px 2px 8px hsla(0,0%,100%,.25),
+                0 -1px 2px 8px hsla(0,0%,0%,.5);
+    color: #303030;
+    cursor: pointer;
+    font: bold 16px/85px sans-serif;
+    height: 80px;
+    padding: 0;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
+                 0 -1px 1px hsla(0,0%,0%,.75);
+    width: 80px;
+}
+.restart:hover,
+.restart:focus {
+    color: #0ab;
+    text-shadow: 0 0 20px hsla(240,75%,75%,.5),
+                 0 1px 1px hsla(0,0%,100%,.25),
+                 0 -1px 1px hsla(0,0%,0%,.75);
+}
+.restart:active {
+    box-shadow: inset 0 0 2px 2px hsla(0,0%,0%,.2),
+                inset 0 0 2px 4px hsla(0,0%,0%,.2),
+                inset 0 0 2px 6px hsla(0,0%,0%,.2),
+                inset 0 0 1px 7px hsla(0,0%,0%,.5),
+                inset 0 5px 15px 7px hsla(0,0%,0%,.15),
+                inset 0 -4px 2px 3px hsla(0,0%,0%,.5),
+                inset 0 1px 1px 7px hsla(0,0%,100%,.25),
+                inset 0 -30px 30px hsla(0,0%,0%,.1),
+                inset 0 30px 30px hsla(0,0%,0%,.2),
+                0 -4px 8px 4px hsla(0,0%,0%,.5),
+                0 5px 10px hsla(0,0%,0%,.25),
+                0 0 2px 2px hsla(0,0%,0%,.2),
+                0 0 2px 4px hsla(0,0%,0%,.2),
+                0 0 2px 6px hsla(0,0%,0%,.2),
+                0 0 2px 8px hsla(0,0%,0%,.5),
+                0 1px 2px 8px hsla(0,0%,100%,.25),
+                0 -1px 2px 8px hsla(0,0%,0%,.5);
+    line-height: 86px;
+}
